@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-image: url(https://img.freepik.com/free-photo/night-view-victoria-harbor-hong-kong_53876-146261.jpg?w=1380&t=st=1728920821~exp=1728921421~hmac=848c6f1d6958f4af7da4cf1a55994067ca30f14111a1429c3a54b4ab5aa79cc0);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.container i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav{
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background-color: lightblue;
+    top: 0;
+    right: -300px;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.259);
+    backdrop-filter: blur(10px);
+}
+.nav span{
+    margin-top: 30px;
+}
+.nav p{
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
